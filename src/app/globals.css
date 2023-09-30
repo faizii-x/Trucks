@@ -1,0 +1,165 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+.jello-vertical {
+	-webkit-animation: jello-vertical 0.6s both;
+	        animation: jello-vertical 0.6s both;
+}
+
+
+
+ @-webkit-keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
+/* ................. */
+
+
+  
+
+  .tracking-in-contract-bck-top {
+	-webkit-animation: tracking-in-contract-bck-top 2s linear 4s both;
+	        animation: tracking-in-contract-bck-top 2s linear 4s both;
+}
+
+
+ @-webkit-keyframes tracking-in-contract-bck-top {
+        0% {
+          letter-spacing: 1em;
+          -webkit-transform: translateZ(400px) translateY(-300px);
+                  transform: translateZ(400px) translateY(-300px);
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          -webkit-transform: translateZ(0) translateY(0);
+                  transform: translateZ(0) translateY(0);
+          opacity: 1;
+        }
+      }
+      @keyframes tracking-in-contract-bck-top {
+        0% {
+          letter-spacing: 1em;
+          -webkit-transform: translateZ(400px) translateY(-300px);
+                  transform: translateZ(400px) translateY(-300px);
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          -webkit-transform: translateZ(0) translateY(0);
+                  transform: translateZ(0) translateY(0);
+          opacity: 1;
+        }
+      }
+      
+
+      .focus-in-contract-bck {
+	-webkit-animation: focus-in-contract-bck 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract-bck 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes focus-in-contract-bck {
+        0% {
+          letter-spacing: 1em;
+          -webkit-transform: translateZ(300px);
+                  transform: translateZ(300px);
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateZ(12px);
+                  transform: translateZ(12px);
+          -webkit-filter: blur(0);
+                  filter: blur(0);
+          opacity: 1;
+        }
+      }
+      @keyframes focus-in-contract-bck {
+        0% {
+          letter-spacing: 1em;
+          -webkit-transform: translateZ(300px);
+                  transform: translateZ(300px);
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateZ(12px);
+                  transform: translateZ(12px);
+          -webkit-filter: blur(0);
+                  filter: blur(0);
+          opacity: 1;
+        }
+      }
+      
